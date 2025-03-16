@@ -10,7 +10,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
-    - [Built with](#built-with)
+    - [Tech Stack](#tech-stack)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
@@ -35,23 +35,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solutions](https://www.frontendmentor.io/profile/BlonoBuccellati/solutions)
+- Live Site URL: [Recipe Page Deployed on Vercel](https://fm-recipe-page-one.vercel.app/)
 
 ## My process
 
-### Built with
+### Tech Stack
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs)](https://skillicons.dev)
+
 - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [React](https://reactjs.org/) - JS library
+- [tailwindcss](https://styled-components.com/) - utility-first CSS framework
+- [node.js](https://nodejs.org/) - Runtime & Build Tool
 
 ### What I learned
 
