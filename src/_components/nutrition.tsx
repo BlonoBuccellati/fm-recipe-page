@@ -25,7 +25,7 @@ const NutritionTableList: NutritionTable[] = [
 
 const Nutrition = () => {
   return (
-    <div className='flex flex-col gap-6'>
+    <div className='flex flex-col gap-6 text-Stone-600'>
       <SubTitle>Nutrition</SubTitle>
       <p>
         The table below shows nutritional values per serving without the
