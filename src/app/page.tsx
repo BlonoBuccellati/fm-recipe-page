@@ -1,3 +1,4 @@
+import Ingredients from '@/_components/ingredients';
 import UlListItem from '@/_components/ul-list-item';
 import Image from 'next/image';
 export default function Home() {
@@ -39,18 +40,7 @@ export default function Home() {
           </ul>
         </div>
         {/* Ingredients */}
-        <div className='flex flex-col gap-6'>
-          <h2 className='text-Brown-800 font-young text-[28px]'>Ingredients</h2>
-          <ul className='flex flex-col gap-2 marker:text-Brown-800 list-inside'>
-            <UlListItem>2-3 large eggs</UlListItem>
-            <UlListItem>Salt, to taste</UlListItem>
-            <UlListItem>Pepper, to taste</UlListItem>
-            <UlListItem>1 tablespoon of butter or oil</UlListItem>
-            <UlListItem>
-              Optional fillings: cheese, diced vegetables, cooked meats, herbs
-            </UlListItem>
-          </ul>
-        </div>
+        <Ingredients />
         {/* Instructions */}
         <div>
           <h2 className='text-Brown-800 font-young text-2xl'>Instructions</h2>
