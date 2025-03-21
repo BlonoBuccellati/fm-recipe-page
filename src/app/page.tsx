@@ -11,7 +11,7 @@ export default function Home() {
       <div className='p-8 flex flex-col gap-5'>
         {/* ここで一個は盲点だった。 */}
         {/* Title */}
-        <div>
+        <div className='flex flex-col gap-6'>
           <h1 className='font-young text-4xl'>Simple Omelette Recipe</h1>
           {/* paragraph */}
           <p>
