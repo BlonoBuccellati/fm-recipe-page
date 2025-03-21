@@ -21,20 +21,19 @@ export default function Home() {
           </p>
         </div>
         {/* preparation time */}
-        <div className='bg-Rose-50 rounded-lg'>
-          <h3 className='text-Rose-800 text-xl font-semibold'>
+        <div className='bg-Rose-50 rounded-lg p-6'>
+          <h3 className='text-Rose-800 text-xl font-semibold leading-none mb-3'>
             Preparation time
           </h3>
-          {/* リスト */}
-          <ul className='list-disc pl-5'>
+          <ul className='list-disc pl-10 flex flex-col gap-3'>
             <li>
-              <b>Total</b>:Approximately 10
+              <b>Total</b>: Approximately 10 minutes
             </li>
             <li>
-              <b>Preparation</b>:5 minutes
+              <b>Preparation</b>: 5 minutes
             </li>
             <li>
-              <b>Cooling</b>:5 minutes
+              <b>Cooling</b>: 5 minutes
             </li>
           </ul>
         </div>
