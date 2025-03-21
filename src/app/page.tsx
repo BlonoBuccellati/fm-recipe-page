@@ -14,18 +14,18 @@ export default function Home() {
         <div className='flex flex-col gap-6'>
           <h1 className='font-young text-4xl'>Simple Omelette Recipe</h1>
           {/* paragraph */}
-          <p>
+          <p className='text-Stone-600'>
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
         </div>
         {/* preparation time */}
-        <div className='bg-Rose-50 rounded-lg p-6'>
-          <h3 className='text-Rose-800 text-xl font-semibold leading-none mb-3'>
+        <div className='bg-Rose-50 rounded-xl flex flex-col gap-4 p-6'>
+          <h3 className='text-Rose-800 text-xl font-semibold'>
             Preparation time
           </h3>
-          <ul className='list-disc pl-10 flex flex-col gap-3'>
+          <ul className='list-disc pl-10 flex flex-col gap-2 text-Stone-600'>
             <li>
               <b>Total</b>: Approximately 10 minutes
             </li>
