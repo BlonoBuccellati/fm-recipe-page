@@ -1,31 +1,49 @@
+import SubTitle from './sub-title';
+
+interface NutritionTable {
+  title: string;
+  value: string;
+}
+const NutritionTableList: NutritionTable[] = [
+  {
+    title: 'Calories',
+    value: '277kcal',
+  },
+  {
+    title: 'Carbs',
+    value: '0g',
+  },
+  {
+    title: 'Protein',
+    value: '20g',
+  },
+  {
+    title: 'Fat',
+    value: '22g',
+  },
+];
+
 const Nutrition = () => {
   return (
-    <div>
-      <h2 className='text-Brown-800 font-young text-2xl'>Nutrition</h2>
-      {/* paragraph */}
+    <div className='flex flex-col gap-6'>
+      <SubTitle>Nutrition</SubTitle>
       <p>
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
-      {/* table */}
       <table>
         <tbody>
-          <tr>
-            <td>Calories</td>
-            <td className='text-Brown-800'>277kcal</td>
-          </tr>
-          <tr>
-            <td>Carbs</td>
-            <td className='text-Brown-800'>0g</td>
-          </tr>
-          <tr>
-            <td>Protein</td>
-            <td className='text-Brown-800'>20g</td>
-          </tr>
-          <tr>
-            <td>Fat</td>
-            <td className='text-Brown-800'>22g</td>
-          </tr>
+          {NutritionTableList.map((data, index) => (
+            <div key={data.title}>
+              <tr key={data.title} className='px-8 grid grid-cols-2 gap-4'>
+                <td>{data.title}</td>
+                <td className='text-Brown-800 font-bold'>{data.value}</td>
+              </tr>
+              {index !== NutritionTableList.length - 1 && (
+                <hr className='my-3 border-t border-Stone-150' />
+              )}
+            </div>
+          ))}
         </tbody>
       </table>
     </div>
