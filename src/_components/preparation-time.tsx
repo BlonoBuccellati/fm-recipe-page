@@ -4,7 +4,7 @@ const PreparationTime = () => {
   return (
     <div className='bg-Rose-50 rounded-xl flex flex-col gap-4 p-6'>
       <h3 className='text-Rose-800 text-xl font-semibold'>Preparation time</h3>
-      <ul className='flex flex-col gap-2 text-Stone-600'>
+      <ul className='flex flex-col gap-2'>
         <UlListItem>
           <b>Total</b>: Approximately 10 minutes
         </UlListItem>
