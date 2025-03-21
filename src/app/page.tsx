@@ -1,3 +1,4 @@
+import UlListItem from '@/_components/ul-list-item';
 import Image from 'next/image';
 export default function Home() {
   return (
@@ -25,29 +26,29 @@ export default function Home() {
           <h3 className='text-Rose-800 text-xl font-semibold'>
             Preparation time
           </h3>
-          <ul className='list-disc pl-10 flex flex-col gap-2 text-Stone-600'>
-            <li>
+          <ul className='flex flex-col gap-2 text-Stone-600'>
+            <UlListItem>
               <b>Total</b>: Approximately 10 minutes
-            </li>
-            <li>
+            </UlListItem>
+            <UlListItem>
               <b>Preparation</b>: 5 minutes
-            </li>
-            <li>
+            </UlListItem>
+            <UlListItem>
               <b>Cooling</b>: 5 minutes
-            </li>
+            </UlListItem>
           </ul>
         </div>
         {/* Ingredients */}
-        <div>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-Brown-800 font-young text-2xl'>Ingredients</h2>
-          <ul className='list-disc pl-5'>
-            <li>2-3 large eggs</li>
-            <li>Salt, to taste</li>
-            <li>Pepper, to taste</li>
-            <li>1 tablespoon of butter or oil</li>
-            <li>
+          <ul className='flex flex-col gap-2 marker:text-Brown-800 list-inside'>
+            <UlListItem>2-3 large eggs</UlListItem>
+            <UlListItem>Salt, to taste</UlListItem>
+            <UlListItem>Pepper, to taste</UlListItem>
+            <UlListItem>1 tablespoon of butter or oil</UlListItem>
+            <UlListItem>
               Optional fillings: cheese, diced vegetables, cooked meats, herbs
-            </li>
+            </UlListItem>
           </ul>
         </div>
         {/* Instructions */}
