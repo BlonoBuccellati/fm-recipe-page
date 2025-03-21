@@ -3,7 +3,6 @@ import Instructions from '@/_components/instructions';
 import Nutrition from '@/_components/nutrition';
 import PreparationTime from '@/_components/preparation-time';
 import Title from '@/_components/title';
-import UlListItem from '@/_components/ul-list-item';
 import Image from 'next/image';
 export default function Home() {
   return (
