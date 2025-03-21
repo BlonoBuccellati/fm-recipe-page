@@ -1,16 +1,14 @@
 import Image from 'next/image';
 export default function Home() {
   return (
-    <div className=''>
+    // ここでカードになってる
+    <div className='flex flex-col items-center justify-center'>
       {/* Image */}
-      <Image
-        src='/assets/images/image-omelette.jpeg'
-        alt='Omelette'
-        width={100}
-        height={100}
-      />
+      <div className='relative h-[170px] w-full'>
+        <Image src='/assets/images/image-omelette.jpeg' alt='Omelette' fill />
+      </div>
       {/* Content */}
-      <div>
+      <div className='p-8 flex flex-col gap-5'>
         {/* ここで一個は盲点だった。 */}
         {/* Title */}
         <div>
@@ -23,7 +21,7 @@ export default function Home() {
           </p>
         </div>
         {/* preparation time */}
-        <div>
+        <div className='bg-Rose-50 rounded-lg'>
           <h3 className='text-Rose-800 text-xl font-semibold'>
             Preparation time
           </h3>
