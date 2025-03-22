@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='md:bg-Stone-100 flex justify-center'>
       {/* ここでカードになってる */}
-      <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:p-10 md:gap-10 md:mt-10'>
+      <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:p-10 md:gap-10 md:my-32'>
         {/* Image */}
         <div className='relative min-h-[10.6875rem] md:h-[18.75rem] w-full md:w-[33.5rem] xl:w-164'>
           <Image
