@@ -38,10 +38,14 @@ const Nutrition = () => {
               key={data.title}
               className={`px-8 grid grid-cols-2 gap-4 ${
                 index !== 0 && 'py-3 border-t border-Stone-150'
-              } ${index === 0 && 'pb-3'}`}
+              } ${index === 0 && 'pb-3'} ${
+                index === NutritionTableList.length - 1 && 'pb-0'
+              }`}
             >
               <td>{data.title}</td>
-              <td className='text-Brown-800 font-bold'>{data.value}</td>
+              <td className='text-Brown-800 font-bold leading-none'>
+                {data.value}
+              </td>
             </tr>
           ))}
         </tbody>
