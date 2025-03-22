@@ -10,7 +10,7 @@ export default function Home() {
       {/* ここでカードになってる */}
       <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:p-10 md:gap-10 md:mt-10'>
         {/* Image */}
-        <div className='relative min-h-[171px] md:h-[300px] w-full md:w-[536px] xl:w-164'>
+        <div className='relative min-h-[10.6875rem] md:h-[18.75rem] w-full md:w-[33.5rem] xl:w-164'>
           <Image
             src='/assets/images/image-omelette.jpeg'
             alt='Omelette'
@@ -19,7 +19,7 @@ export default function Home() {
           />
         </div>
         {/* Content */}
-        <div className='px-8 py-10 flex flex-col gap-8 md:p-0 md:w-[536px] xl:w-164'>
+        <div className='px-8 py-10 flex flex-col gap-8 md:p-0 md:w-[33.5rem] xl:w-164'>
           {/* ここで一個は盲点だった。 */}
           <Title />
           <PreparationTime />
