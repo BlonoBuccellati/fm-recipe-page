@@ -8,18 +8,18 @@ export default function Home() {
   return (
     <div className='md:bg-Stone-100 flex justify-center'>
       {/* ここでカードになってる */}
-      <div className='flex flex-col items-center justify-center md:w-[616px] bg-white md:rounded-2xl md:p-10 md:gap-10 md:my-32'>
+      <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:p-10 md:gap-10 md:mt-10'>
         {/* Image */}
-        <div className='relative h-[171px] md:h-[300px] w-full'>
+        <div className='relative min-h-[171px] md:h-[300px] w-full md:w-[536px] xl:w-164'>
           <Image
             src='/assets/images/image-omelette.jpeg'
             alt='Omelette'
             fill
-            className='md:rounded-2xl '
+            className='md:rounded-2xl'
           />
         </div>
         {/* Content */}
-        <div className='px-8 py-10 flex flex-col gap-8 md:p-0'>
+        <div className='px-8 py-10 flex flex-col gap-8 md:p-0 md:w-[536px] xl:w-164'>
           {/* ここで一個は盲点だった。 */}
           <Title />
           <PreparationTime />
