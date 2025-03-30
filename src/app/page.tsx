@@ -9,9 +9,9 @@ export default function Home() {
     <div className='md:bg-Stone-100 flex justify-center'>
       {/* ここでカードになってる */}
       <main>
-        <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:p-10 md:gap-10 md:my-32'>
+        <div className='flex flex-col items-center justify-center bg-white md:rounded-2xl md:max-w-[38.5rem] md:p-10 md:gap-10 md:my-32 xl:max-w-184'>
           {/* Image */}
-          <div className='relative min-h-[10.6875rem] md:h-[18.75rem] w-full md:w-[33.5rem] xl:w-164'>
+          <div className='relative min-h-[10.6875rem] md:min-h-[18.75rem] w-full'>
             <Image
               src='/assets/images/image-omelette.jpeg'
               alt='Omelette'
@@ -20,7 +20,7 @@ export default function Home() {
             />
           </div>
           {/* Content */}
-          <div className='px-8 py-10 flex flex-col gap-8 md:p-0 md:w-[33.5rem] xl:w-164'>
+          <div className='px-8 py-10 flex flex-col gap-8 md:p-0 '>
             {/* ここで一個は盲点だった。 */}
             <Title />
             <PreparationTime />
