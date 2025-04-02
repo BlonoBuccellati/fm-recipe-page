@@ -37,19 +37,19 @@ const instructionItems: InstructionItemInterface[] = [
 ];
 const Instructions = () => {
   return (
-    <div className='flex flex-col gap-6'>
+    <section className='flex flex-col gap-6 pb-8 border-b border-Stone-150'>
       <SubTitle>Instructions</SubTitle>
       <ol className='list-inside flex flex-col gap-2 marker:text-Brown-800 text-Stone-600'>
         {instructionItems.map((item, index) => (
           <li key={item.title} className='flex gap-4 pl-2'>
-            <span className='text-Brown-800'>{index + 1}.</span>
-            <p>
-              <b>{item.title}</b>: {item.content}
-            </p>
+            <div className='text-Brown-800'>{index + 1}.</div>
+            <div>
+              <span className='font-bold'>{item.title}</span>: {item.content}
+            </div>
           </li>
         ))}
       </ol>
-    </div>
+    </section>
   );
 };
 
