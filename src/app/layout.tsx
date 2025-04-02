@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Recipe Page',
+  title: 'Frontend Mentor | Recipe Page',
   description: 'Recipe Page of Frontend Mentor Solution',
   icons: 'favicon-32x32.png',
 };
