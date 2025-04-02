@@ -1,7 +1,7 @@
 const Title = () => {
   return (
     <header className='flex flex-col gap-6'>
-      <h1 className='font-young text-4xl md:text-[2.5rem]'>
+      <h1 className='font-young text-4xl md:text-[2.5rem] md:leading-none'>
         Simple Omelette Recipe
       </h1>
       {/* paragraph */}
